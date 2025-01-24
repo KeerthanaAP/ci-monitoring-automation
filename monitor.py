@@ -31,7 +31,13 @@ def fetch_release_date(release):
                         break
              return start_date
         else:
-            return "failed to get the release page"
+            if response.status_code == 404:
+                print(f"Failed to get the release page.  {response.text}")
+                sys.exit(1)
+
+            else:
+                print("Failed to get the release page")
+                sys.exit(1)
     except requests.Timeout as e:
         return "Request timed out"
     except requests.RequestException as e:
