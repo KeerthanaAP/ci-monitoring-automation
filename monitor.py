@@ -17,7 +17,18 @@ def fetch_release_date(release):
     '''
     Returns the created date of release
     '''
-    url = constants.RELEASE_URL + release
+
+    pattern = "^\d+[.]\d+"
+    match = re.search(pattern,release)
+    if match:
+        version=float(match.group(0))
+    else:
+        print(f"Failed to fecth version from the provided release '{release}' ")
+        sys.exit(1)
+    if version >= 4.19:
+        url = constants.DEV_PREVIEW_RELEASE_URL + release
+    else:
+        url = constants.STABLE_RELEASE_URL + release
     try:
         response = requests.get(url, verify=False, timeout=15)
         if response.status_code == 200:
