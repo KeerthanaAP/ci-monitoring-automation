@@ -1,6 +1,5 @@
 {
     "4.16 to 4.17 upgrade":"periodic-ci-openshift-multiarch-master-nightly-4.17-upgrade-from-nightly-4.16-ocp-ovn-remote-s2s-libvirt-multi-p-p",
-    "4.16 agent": "periodic-ci-openshift-multiarch-master-nightly-4.16-ocp-e2e-ovn-agent-remote-s2s-libvirt-ppc64le",
     "4.17 libvirt": "periodic-ci-openshift-multiarch-master-nightly-4.17-ocp-e2e-ovn-remote-s2s-libvirt-ppc64le",
     "4.17 libvirt multi":"periodic-ci-openshift-multiarch-master-nightly-4.17-ocp-e2e-ovn-remote-s2s-libvirt-multi-p-p",
     "4.17 powervs capi":"periodic-ci-openshift-multiarch-master-nightly-4.17-ocp-e2e-ovn-powervs-capi-multi-p-p",
