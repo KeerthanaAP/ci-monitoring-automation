@@ -20,5 +20,6 @@
     "4.18 serial": "periodic-ci-openshift-multiarch-master-nightly-4.18-ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p",
     "4.19 serial": "periodic-ci-openshift-multiarch-master-nightly-4.19-ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p",
     "4.20 serial": "periodic-ci-openshift-multiarch-master-nightly-4.20-ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p",
-    "4.21 serial": "periodic-ci-openshift-multiarch-master-nightly-4.21-ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p"
+    "4.21 serial": "periodic-ci-openshift-multiarch-master-nightly-4.21-ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p",
+    "4.21 techpreviewnoupgrade": "periodic-ci-openshift-multiarch-master-nightly-4.22-ocp-e2e-serial-ovn-techpreview-remote-s2s-libvirt-multi-p-p"
 }
